@@ -6,7 +6,7 @@ public class TypeInferance {
 		
 		MyLamda lamda = (String s)->s.length();
 		System.out.println(lamda.getLength("Yogesh"));
-		printLamda(s ->s.length());
+		printLamda(s ->s.length());//Type reference lamda is matched with the method in functional interface
 			
 	}
 	

@@ -19,7 +19,7 @@ public class CollectionItertionExp {
 		
 		for(Person p:personList){
 			System.out.println("Printing from for in loop "+ p);
-		}
+		} 
 		
 		//Multi threaded run time decides on how to iterate
 		//personList.forEach(p->System.out.println("Printing from for each" + p));
